@@ -19,12 +19,18 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-     background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,1);
     color: rgb(255, 255,255);
 }
 
 .nav-links a {
     color: rgb(255, 254,254);
+    font-weight: 400;
+}
+
+.nav-links a:hover{
+    color:brown;
+    transition: 1s ease;
 }
 
 /* LOGO */
@@ -45,6 +51,4 @@ li {
 
 .menu li {
     padding: 5px 14px;
-}
-
 }
