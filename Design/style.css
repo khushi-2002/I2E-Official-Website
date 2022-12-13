@@ -26,12 +26,9 @@ li {
 .nav-links a {
     color: rgb(255, 254,254);
     font-weight: 400;
+    position: relative;
 }
 
-.nav-links a:hover{
-    color:brown;
-    transition: 1s ease;
-}
 
 /* LOGO */
 .logo img {
@@ -51,4 +48,20 @@ li {
 
 .menu li {
     padding: 5px 14px;
+}
+
+
+
+.menu li a::after{
+    content: '';
+    width:0;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+.menu li a:hover::after{
+    width: 100%;
 }
