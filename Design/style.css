@@ -250,54 +250,104 @@ margin-top: 10px;
 #services-new{
 
 padding: 80px 0;
-width: 100%;
-height: 100vh;
+
 background-color: black;
 }
 
-#services-new .container .row{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-#services-new .row .services-card-1, .services-card-2, .services-card-3{
-flex-basis: 30%;
-}
 
 
 #services-new .new-heading{
 color: grey;
-font-size: 25px;
+font-size: 50px;
 text-align: center;
 margin-bottom: 40px;
 }
 
-#services-new  img{
-     width: 100%;
-     border-radius: 15px;
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
 }
 
-/* #services-new .button{
-    margin-top: 30px;
-    text-align: center;
-} */
+.service{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
-/* #services-new .services-more {
-    text-align: center;
-    padding: 10px;
-    background: #ddd8e4;
-    color: black;
-    /* font-weight: bold; */
-    /* border-radius: 5px;
-    font-size: 15px;
-    transition: all 0.4s ease; 
-} 
-*/
+.service img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
 
-/* #services-new .services-more:hover {
-    background: #1d1d1e;
-    color: #fff;
-} */
+.layer{
+    width: 100%;
+    height: 0%;
+    color: rgb(247, 241, 246);
+    background: linear-gradient(rgba(16, 15, 16, 0.6), #6f6672);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
+    transition: height 0.7s;
+}
+
+.layer h3{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.layer a{
+   margin-top: 20px;
+   color: #810CA8;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 60px;
+   background: white;
+   width: 60px;
+   height:60px;
+   border-radius: 50%;
+   text-align: center;
+   
+}
+
+.service:hover img{
+transform: scale(1.1);
+}
+
+.service:hover .layer{
+    height: 100%;
+
+}
+
+.btn{
+   display: block;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 14px 50px;
+    color: white;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #6f6672;
+    color: white;
+}
+
 
 
