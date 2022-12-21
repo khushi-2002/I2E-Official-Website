@@ -131,9 +131,12 @@ nav ul li a.active-link::after{
 /* ABOUT SECTION */
 
 #about{
-    padding: 80px 0;
-    background: black;
+   background-color: black;
+   padding: 80px 0; 
+
 }
+
+
 
 .row{
     display: flex;
@@ -230,11 +233,24 @@ display: none;
 
 /* Offer page */
 
-#services, #partners{
-    padding: 80px 0;
+#services{
+
     width: 100%;
     height: 100vh;
 
+}
+.service-img{
+    
+    background: url(../Photos/pexels-fauxels-3183198.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
 }
 
 #services .services-col-1 p{
@@ -242,10 +258,14 @@ margin-top: 10px;
 }
 
 .services-col-1 h1{
+    margin-top: 80px;
     font-size: 40px;
     color: rgb(66, 58, 58);
 }
 
+.services-col-2{
+    margin-top: 40px;
+}
 
 /* Services page */
 
@@ -351,6 +371,7 @@ transform: scale(1.1);
 
 /* ----------------Partners----------- */
 
+
 #partners .container h1{
     color: grey;
     font-size: 50px;
@@ -388,18 +409,77 @@ transform: scale(1.1);
 
     /* -------------Blog--------------- */
 
-    #blog{
-        background: black;
-        padding: 80px 0;
+   
+
+    #blog .blog-img{
+    background: url(../Photos/pic5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
     }
 
     .blogs{
-       color: grey;
+       
+       color: rgb(193, 188, 188);
        font-size: 50px;
        text-align: center;
-       margin-bottom: 40px;
+       
     }
 
+#Blog .container{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#Blog .wrapper{
+    width: 100%;
+}
+
+#Blog .blog-cards{
+max-width: 1200px;
+margin: auto;
+padding: 0 40px;
+}
+
+.blog-cards .blog{
+    margin: 20px 0;
+    box-shadow: 0px 4px 15px rgba(0,0,0);
+    border-radius: 12px;
     
+}
+
+.blog img{
+    width: 100%;
+    
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 40px;
+}
+.owl-dot{
+    height: 15px;
+    width: 40px;
+    border-radius: 25px;
+    border: 2px solid black!important;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    transition: all 0.4s;
+}
+
+.owl-dot.active,
+.owl-dot:hover{
+    background: #eef2f4!important;
+}
+    
+
+/* --------------Footer----------- */
     
 
