@@ -480,7 +480,10 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
-    
+ 
+
+
+
 
 /* --------------Footer----------- */
     
@@ -546,4 +549,6 @@ nav .fas{
         font-size: 14px;
         line-height: 0.5;
     }
+
+    
 }
