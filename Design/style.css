@@ -555,8 +555,12 @@ nav .fas{
 }
 
 
-/* -------- css for services ----------- */
+/* -------- css for services page ----------- */
 
+.service-heading{
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
 
 .column_services {
     float: left;
