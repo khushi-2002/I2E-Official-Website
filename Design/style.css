@@ -26,10 +26,16 @@ html{
 
 .container{
     padding: 10px 4%;
+    
 }
 
 .container.hero{
     padding: 0;
+}
+
+.home video{
+  opacity: 0.6;
+
 }
 
 nav{
