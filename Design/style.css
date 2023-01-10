@@ -242,7 +242,7 @@ display: none;
 }
 .service-img{
     
-    background: url(../Photos/pexels-fauxels-3183198.jpg);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@ transform: scale(1.1);
 
 
 #partners .container h1{
-    color: grey;
+    color: white;
     font-size: 50px;
     text-align: center;
     margin-bottom: 50px;
@@ -411,7 +411,7 @@ transform: scale(1.1);
     /* -------------Blog--------------- */
 
     #blog .blog-img{
-    background: url(../Photos/pic5.jpg);
+    background: url(C:\Users\yashn\OneDrive\Desktop\i2e\I2E-Official-Website\Photos\pexels-fauxels-3184450.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
