@@ -25,7 +25,8 @@ html{
 }
 
 .container{
-    padding: 10px 4%;
+    padding: 10px 10%;
+    opacity: 0.5;
 }
 
 .container.hero{
