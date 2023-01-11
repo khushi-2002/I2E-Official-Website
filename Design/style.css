@@ -480,16 +480,10 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
- /* --------------FAQ----------- */   
- faq-heading{
-    border-bottom: #777;
-    padding: 20px 60px;
-}
-.faq-container{
-display: flex;
-justify-content: center;
-flex-direction: column;
-} 
+  
+
+
+
 /* Contact Page CSS */
 .contact-main-body{
     min-height: 100vh;
@@ -604,7 +598,15 @@ flex-direction: column;
   }
 
 
-
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+} 
 
 .hr-line{
   width: 60%;
@@ -613,7 +615,7 @@ flex-direction: column;
 }
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
-     background-color: #101010; 
+    background-color: #101010; 
     color: #7B7474;
     cursor: pointer;
     padding: 30px 20px;
@@ -660,9 +662,9 @@ flex-direction: column;
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
+
+
 /* --------------Footer----------- */
-    
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #footer.body {
   padding: 0;
   margin: 0;
@@ -774,9 +776,6 @@ ul li {
   font-size: 0.9em;
   text-align: center;
 }
-
-
-
 
 
 
