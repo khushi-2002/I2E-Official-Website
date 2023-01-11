@@ -26,10 +26,16 @@ html{
 
 .container{
     padding: 10px 4%;
+    
 }
 
 .container.hero{
     padding: 0;
+}
+
+.home video{
+  opacity: 0.6;
+
 }
 
 nav{
@@ -242,7 +248,7 @@ display: none;
 }
 .service-img{
     
-    background: url(../Photos/pexels-fauxels-3183198.jpg);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -374,7 +380,7 @@ transform: scale(1.1);
 
 
 #partners .container h1{
-    color: grey;
+    color: white;
     font-size: 50px;
     text-align: center;
     margin-bottom: 50px;
@@ -411,7 +417,7 @@ transform: scale(1.1);
     /* -------------Blog--------------- */
 
     #blog .blog-img{
-    background: url(../Photos/pic5.jpg);
+    background: url(C:\Users\yashn\OneDrive\Desktop\i2e\I2E-Official-Website\Photos\pexels-fauxels-3184450.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -480,11 +486,20 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
- 
+ /* --------------FAQ----------- */   
+ faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+} 
 /* Contact Page CSS */
 .contact-main-body{
     min-height: 100vh;
-    width: 100%;
+    width : 100%;
     background: url(contact-bg.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
@@ -596,8 +611,177 @@ margin: auto;
 
 
 
+
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+     background-color: #101010; 
+    color: #7B7474;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #ffffff;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
 /* --------------Footer----------- */
     
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#footer.body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+footer {
+  background-color: #121315;
+  color: #ffffff;
+  font-size: 16px;
+}
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 10em;
+}
+ p1 {
+  text-align:  justify;
+  line-height: 1;
+  margin: 0;
+  white-space: nowrap;
+}
+.logo{
+    width: 300px;
+    -ms-ime-align:center;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+p,button1 {
+  font-size: 1em;
+  padding: 1em;
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  -moz-box-align:center;
+  cursor:pointer;
+}
+button1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+input,
+button{
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  cursor:pointer;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: all 0.4s ease; 
+}
+
+
+button{
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+footer.ul {
+    position: absolute;
+    bottom: 0%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    margin: 50;
+    padding: 0;
+    display: flex;
+}
+ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 2px;
+}
+
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: 000000;
+}
+
+.copyright p {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+
 
 
 
