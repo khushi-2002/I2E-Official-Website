@@ -129,7 +129,7 @@ nav ul li a.active-link::after{
 
 #submit:hover{
     background: #ddd8e4;
-    color: black;
+    color: white;
     font-weight: bold;
     
 }
