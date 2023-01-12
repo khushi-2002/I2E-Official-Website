@@ -129,7 +129,7 @@ nav ul li a.active-link::after{
 
 #submit:hover{
     background: #ddd8e4;
-    color: white;
+    color: black;
     font-weight: bold;
     
 }
@@ -417,7 +417,7 @@ transform: scale(1.1);
     /* -------------Blog--------------- */
 
     #blog .blog-img{
-    background: url(C:\Users\yashn\OneDrive\Desktop\i2e\I2E-Official-Website\Photos\pexels-fauxels-3184450.jpg);
+    /* background: url(C:\Users\yashn\OneDrive\Desktop\i2e\I2E-Official-Website\Photos\pexels-fauxels-3184450.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
