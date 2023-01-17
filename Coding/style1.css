@@ -99,6 +99,7 @@ body {
 .front .text .text-1,
 .front .text .text-2{
     transform: rotateY(0deg);
+    width:0px;
 }
 
 .cover .text .text-2{
@@ -227,30 +228,271 @@ form .form-content label:hover{
     display: none;
 }
 
-@media (max-width: 750px){
-    .container .cover{
-        display: none;
-     
-    }
+@media (max-width: 400px){
+ 
 
     .form-content .login-form,
     .form-content .signup-form {
     width: 100%;
     }
      
-    .form-content .signup-form{
-        display: none;
-    }
+  
 
     .container #flip:checked ~ form .signup-form{
         display: block;
     }
 
     .container #flip:checked ~ form .login-form{
-        display: none;
+        
+    }
+    .container {
+        position: relative;
+        max-width: 550px;
+        width: 50%;
+        background: #fff;
+        padding: 20px 15px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        perspective:2700px;
     }
 
+
+
+
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    body {
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../Photos/business.jpg);
+        padding: 15px;
+    }
+    
+    .container {
+        position: relative;
+        max-width: 450px;
+        width: 50%;
+        background: #fff;
+        padding: 20px 150px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        perspective:2700px;
+    }
+    
+    .container .cover{
+        position: absolute;
+        top: 0;
+        left: 25%;
+        height: 50%;
+        width: 25%;
+        z-index: 98;
+    
+        transition: all 1s ease;
+        transform-origin: left;
+        transform-style:preserve-3d;
+    }
+    
+    .container .cover::before{
+        content: '';
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        background: #1d1d1e;
+        opacity: 0.5;
+        z-index: 100;
+    }
+    
+    .container .cover::after{
+        content: '';
+        position: absolute;
+        height: 50%;
+        width: 50%;
+         background: #1d1d1e;
+        opacity: 0.5;
+        z-index: 100;
+        transform: rotateY(180deg);
+    }
+    .container #flip:checked ~ .cover{
+        transform: rotateY(-180deg);
+    }
+    
+    .container .cover img{
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        object-fit: cover;
+        z-index: 12;
+        backface-visibility: hidden;
+    }
+    
+    .container .cover .back .backImg{
+        transform: rotateY(180deg);
+    }
+    
+    .container .cover .text{
+        position: absolute;
+        z-index: 111;
+        height: 50%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cover .text .text-1, .cover .text .text-2{
+        font-size: 13px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        backface-visibility: hidden;
+        
+    }
+    
+    .front .text .text-1,
+    .front .text .text-2{
+        transform: rotateY(0deg);
+    }
+    
+    .cover .text .text-2{
+        font-size: 7.5px;
+        font-weight: 250;
+    }
+    
+    form .form-content .login-text,
+    form .form-content .signup-text{
+        text-align: center;
+        margin-top: 12.5px;
+    } 
+    .container .form{
+        height: 50%;
+        width: 50%;
+        background: #fff;
+    }
+    
+    .container .form-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .form-content .login-form,
+    .form-content .signup-form {
+        width: calc(100% / 2 - 12.5px);
+        /* background: red; */
+    }
+    
+    form .form-content .title{
+        position: relative;
+        font-size: 12px;
+        font-weight: 500;
+        color: #333;
+    }
+    form .form-content .title:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1.5px;
+        width: 12.5px;
+        background: #1d1d1e;
+    }
+    
+    form .signup-form .title:before{
+        width: 10px;
+    }
+    
+    form .form-content .input-boxes{
+        margin-top: 30px;
+    }
+    
+    form .form-content .input-box{
+        display: flex;
+        align-items: center;
+        height: 25px;
+        width: 50%;
+        margin: 5px 0;
+        position: relative;
+    }
+    
+    .form-content .input-box input{
+        height: 50%;
+        width: 50%;
+        outline: none;
+        border: none;
+        padding: 0 15px;
+        font-size: 8px;
+        font-weight: 250;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+    .form-content .input-box input:focus,
+    .form-content .input-box input:valid{
+        border-color: #1d1d1e;
+    }
+    
+    .form-content .input-box i{
+        position: absolute;
+        color: #1d1d1e;
+        font-size: 8.5px;
+    }
+    form .form-content .text{
+       font-size: 7px;
+       font-weight: 250;
+       color: #333;
+    }
+    
+    form .form-content .text a{
+        text-decoration: none;
+    }
+    
+    form .form-content .text a:hover{
+        text-decoration: underline;
+    }
+    form .form-content .button{
+        color: #fff;
+        margin-top: 20px;
+    }
+    
+    form .form-content .button input{
+        color: #fff;
+        background: #1d1d1e;
+        border-radius: 3px;
+        padding: 0;
+        cursor: pointer;
+        transition: all 0.4s ease ;
+    }
+    
+    form .form-content .button input:hover{
+        background: #4a474f;
+    }
+    
+    form .form-content label{
+        color: #6527bd;
+        cursor: pointer;
+    }
+    
+    form .form-content label:hover{
+        text-decoration: underline;
+    }
+    
+    .container #flip{
+        display: none;
+    }
+    .image1{
+        width:100vh;
+        height:50vh
+    }
   
 }
+
 
 
