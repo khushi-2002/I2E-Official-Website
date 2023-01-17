@@ -34,8 +34,7 @@ html{
 }
 
 .home video{
-  opacity: 0.6;
-
+  opacity: 0.7;
 }
 
 nav{
@@ -241,13 +240,12 @@ display: none;
 /* Offer page */
 
 #services{
-
+   
     width: 100%;
     height: 100vh;
 
 }
 .service-img{
-    
     background-color: rgb(255, 255, 255);
     background-size: cover;
     position: relative;
@@ -277,14 +275,14 @@ margin-top: 10px;
 /* Services page */
 
 #services-new{
-padding: 80px 0;
-background-color: black;
+padding: 20px ;
+background-color: grey;
 }
 
 
 
 #services-new .new-heading{
-color: grey;
+color: white;
 font-size: 50px;
 text-align: center;
 margin-bottom: 40px;
@@ -364,7 +362,7 @@ transform: scale(1.1);
     width: fit-content;
     text-align: center;
     text-decoration: none;
-    border: 1px solid grey;
+    border: 1px solid white;
     padding: 14px 50px;
     color: white;
     border-radius: 10px;
@@ -372,15 +370,17 @@ transform: scale(1.1);
 }
 
 .btn:hover{
-    background: #6f6672;
+    background: black;
     color: white;
 }
 
 /* ----------------Partners----------- */
-
+#partners{
+  padding: 30px;
+}
 
 #partners .container h1{
-    color: white;
+    color: black;
     font-size: 50px;
     text-align: center;
     margin-bottom: 50px;
@@ -417,7 +417,7 @@ transform: scale(1.1);
     /* -------------Blog--------------- */
 
     #blog .blog-img{
-    background: url(C:\Users\yashn\OneDrive\Desktop\i2e\I2E-Official-Website\Photos\pexels-fauxels-3184450.jpg);
+    /* background: url(C:\Users\yashn\OneDrive\Desktop\i2e\I2E-Official-Website\Photos\pexels-fauxels-3184450.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -436,12 +436,12 @@ transform: scale(1.1);
        
     }
 #blog{
-    padding-top: 30px;
+    background-color: #6f6672;
+    padding: 5px;
 }
 
 #blog .container{
-    display: flex;
-    margin-top: 40px;
+    display: flex; 
     min-height: 60vh;
 }
 
@@ -486,16 +486,10 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
- /* --------------FAQ----------- */   
- faq-heading{
-    border-bottom: #777;
-    padding: 20px 60px;
-}
-.faq-container{
-display: flex;
-justify-content: center;
-flex-direction: column;
-} 
+  
+
+
+
 /* Contact Page CSS */
 .contact-main-body{
     min-height: 100vh;
@@ -610,16 +604,23 @@ flex-direction: column;
   }
 
 
-
+/* .faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+} 
 
 .hr-line{
   width: 60%;
   margin: auto;
   
-}
-/* Style the buttons that are used to open and close the faq-page body */
-.faq-page {
-     background-color: #101010; 
+} */
+/* .faq-page {
+    background-color: #101010; 
     color: #7B7474;
     cursor: pointer;
     padding: 30px 20px;
@@ -632,7 +633,7 @@ flex-direction: column;
 }
 .faq-body{
     margin: auto;
-    /* text-align: center; */
+
    width: 50%; 
    padding: auto;
    
@@ -640,13 +641,13 @@ flex-direction: column;
 
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
+/* .active,
 .faq-page:hover {
     background-color: #ffffff;
-}
+} */
 
-/* Style the faq-page panel. Note: hidden by default */
-.faq-body {
+
+/* .faq-body {
     padding: 0 18px;
     background-color: white;
     display: none;
@@ -655,7 +656,7 @@ flex-direction: column;
 
 .faq-page:after {
     content: '\02795';
-    /* Unicode character for "plus" sign (+) */
+
     font-size: 13px;
     color: #777;
     float: right;
@@ -664,11 +665,11 @@ flex-direction: column;
 
 .active:after {
     content: "\2796";
-    /* Unicode character for "minus" sign (-) */
-}
-/* --------------Footer----------- */
     
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+} */
+
+
+/* --------------Footer-----------
 #footer.body {
   padding: 0;
   margin: 0;
@@ -779,10 +780,7 @@ ul li {
 .copyright p {
   font-size: 0.9em;
   text-align: center;
-}
-
-
-
+} */
 
 
 
