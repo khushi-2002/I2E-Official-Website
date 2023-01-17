@@ -682,7 +682,7 @@ footer * {
   outline: none;
   
 }
-.row {
+.footer-row {
   padding: 1em 1em;
 }
 .row.primary {
@@ -690,20 +690,20 @@ footer * {
   grid-template-columns: 2fr 1fr 1fr 2fr;
   align-items: stretch;
 }
-.column {
+.footer-column {
   width: 100%;
   display: flex;
   flex-direction: column;
   padding: 0 2em;
   min-height: 10em;
 }
- p1 {
+ .footer-p1 {
   text-align:  justify;
   line-height: 1;
   margin: 0;
   white-space: nowrap;
 }
-.logo{
+.footer-logo{
     width: 300px;
     -ms-ime-align:center;
 }
@@ -727,7 +727,7 @@ button1 {
 }
 
 input,
-button{
+button2{
   font-size: 1em;
   padding: 1em;
   width: 100%;
@@ -738,7 +738,7 @@ button{
 }
 
 
-button{
+button2{
   background-color: #ff0000;
   color: #ffffff;
 }
