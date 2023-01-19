@@ -228,7 +228,7 @@ form .form-content label:hover{
     display: none;
 }
 
-@media (max-width: 400px){
+@media (max-width: 630px){
  
 
     .form-content .login-form,
