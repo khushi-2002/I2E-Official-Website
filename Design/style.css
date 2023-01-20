@@ -646,7 +646,7 @@ margin: auto;
   }
 
 
-/* .faq-heading{
+ .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
 }
@@ -659,13 +659,13 @@ flex-direction: column;
 .hr-line{
   width: 60%;
   margin: auto;
-  
-} */
-/* .faq-page {
+
+} 
+.faq-page {
     background-color: #101010; 
     color: #7B7474;
     cursor: pointer;
-    padding: 30px 20px;
+    padding: 20px 20px;
     width: 60%;
     border: none;
     outline: none;
@@ -683,13 +683,13 @@ flex-direction: column;
 
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-/* .active,
+.active,
 .faq-page:hover {
     background-color: #ffffff;
-} */
+} 
 
 
-/* .faq-body {
+ .faq-body {
     padding: 0 18px;
     background-color: white;
     display: none;
@@ -708,9 +708,7 @@ flex-direction: column;
 .active:after {
     content: "\2796";
     
-} */
-
-/* 
+} 
  --------------Footer-----------
 #footer.body {
   padding: 0;

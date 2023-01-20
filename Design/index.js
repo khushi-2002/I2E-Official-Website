@@ -49,7 +49,6 @@ function openmenu(){
 function closemenu(){
     sidemenu.style.right= "-200px";
 }
-
 var faq = document.getElementsByClassName("faq-page");
 var i;
 
@@ -68,4 +67,3 @@ for (i = 0; i < faq.length; i++) {
         }
     });
 }
-
