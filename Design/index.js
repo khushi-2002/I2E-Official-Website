@@ -1,14 +1,13 @@
 var tablinks = document.getElementsByClassName("tab-link");
 var tabcontents = document.getElementsByClassName("tab-contents");
 
-
 function opentab(tabname){
     for(tablink of tablinks){
-        tablinks.classList.remove("active-link");
+        tablink.classList.remove("active-link");
     }
 
-    for(tabcontents of tabcontents){
-            tabcontents.classList.remove("active-tag");
+    for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tag");
     }
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tag");
