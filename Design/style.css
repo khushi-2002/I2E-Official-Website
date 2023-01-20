@@ -651,7 +651,7 @@ flex-direction: column;
 
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-faq.active,
+.faq-active,
 .faq-page:hover {
     background-color: #ffffff;
 } 
@@ -673,13 +673,13 @@ faq.active,
     margin-left: 5px;
 }
 
-faq.active:after {
+.faq-active:after {
     content: "\2796";
     
 } 
  --------------Footer-----------
 #footer.body {
-  padding: 0;
+  padding: 10;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -727,7 +727,7 @@ footer.about p {
   line-height: 2;
   margin: 0;
 }
-footer.p,button1 {
+footer.p {
   font-size: 1em;
   padding: 1em;
   width: 50%;
@@ -736,10 +736,7 @@ footer.p,button1 {
   -moz-box-align:center;
   cursor:pointer;
 }
-button1 {
-  background-color: #ffffff;
-  color: #000000;
-}
+
 
 input,
 button2{
@@ -788,9 +785,34 @@ footer.copyright {
 .copyright p {
   font-size: 0.9em;
   text-align: center;
-}  */
+}  
 
+/*social*/
+.social {
+  padding: 0px;
+  margin: 5px;
+  border-radius: 6px;
 
+}
+
+.social a{
+  font-size: 30px;
+  color: #F4FFFE;
+  border-style: groove;
+  border-color: grey;
+  padding: 0px;
+  margin: 10px;
+  border-radius: 6px;
+  
+}
+.social a:hover {
+  background-color: darkred;
+  color: white;
+  -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  transition: background-color 0.6s ease-out, color 0.6s ease-out;
+}
 
 /* -------------------Css for small screens------------ */
 
