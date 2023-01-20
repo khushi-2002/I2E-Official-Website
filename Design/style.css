@@ -616,7 +616,7 @@ margin: auto;
 
 
 
-  
+
  .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
@@ -646,7 +646,6 @@ flex-direction: column;
 }
 .faq-body{
     margin: auto;
-
    width: 50%; 
    padding: auto;
    
