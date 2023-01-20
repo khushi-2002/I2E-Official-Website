@@ -245,6 +245,10 @@ display: none;
     height: 100vh;
 
 }
+
+#services p{
+  line-height: 2.0;
+}
 .service-img{
     background-color: rgb(255, 255, 255);
     background-size: cover;
@@ -375,43 +379,7 @@ transform: scale(1.1);
 }
 
 /* ----------------Partners----------- */
-/* #partners{
-  padding: 30px;
-}
 
-#partners .container h1{
-    color: black;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-    }
-
-    .partner-list{
-        display: flex;
-        justify-content: space-between;
-        max-width: 1200px;
-        width: 100%;
-        flex-wrap: wrap;
-        margin: 12px auto;
-    }
-
-    .partner{
-        text-align: center;
-        object-fit: cover;
-        padding: 10px;
-        margin-bottom: 30px;
-        border-radius: 10px;
- 
-    }
-
-    .partner img{
-        display: block;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-       
-    } */
 
     #partner {
       background-color: #ccc;
@@ -423,6 +391,7 @@ transform: scale(1.1);
       text-align: center;
       padding: 3rem 0;
     }
+
   
     .partner_container {
       display: flex;
@@ -452,7 +421,6 @@ transform: scale(1.1);
     /* -------------Blog--------------- */
 
     #blog .blog-img{
-    /* background: url(C:\Users\yashn\OneDrive\Desktop\i2e\I2E-Official-Website\Photos\pexels-fauxels-3184450.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
