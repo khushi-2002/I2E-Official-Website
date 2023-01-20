@@ -624,7 +624,7 @@ margin: auto;
 
 
 
- .faq-heading{
+.faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
 }
@@ -660,7 +660,7 @@ flex-direction: column;
 
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-faq.active,
+.faq.active,
 .faq-page:hover {
     background-color: #ffffff;
 } 
@@ -682,7 +682,7 @@ faq.active,
     margin-left: 5px;
 }
 
-faq.active:after {
+.faq.active:after {
     content: "\2796";
     
 } 
@@ -736,7 +736,7 @@ footer.about p {
   line-height: 2;
   margin: 0;
 }
-footer.p,button1 {
+footer p,button1 {
   font-size: 1em;
   padding: 1em;
   width: 50%;
@@ -750,7 +750,7 @@ button1 {
   color: #000000;
 }
 
-input,
+footer input,
 button2{
   font-size: 1em;
   padding: 1em;
@@ -782,7 +782,7 @@ footer.ul {
     padding: 0;
     display: flex;
 }
-ul li {
+footer ul li {
     position: relative;
     list-style: none;
     margin: 0 2px;
