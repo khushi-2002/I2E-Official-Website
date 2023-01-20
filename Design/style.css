@@ -497,9 +497,8 @@ margin: auto;
 .contact-main-body{
   min-height: 100vh;
   width: 100%;
-  /* background: url(contact-bg.jpg) no-repeat center center fixed;
-  background-size: cover; */
-  background-color: rgb(59 59 59);
+  background: url(contact-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -507,11 +506,9 @@ margin: auto;
   gap: 20px;
 }
 .contact-heading{
-  color: white;
-  font-size: 1.3rem;
-  text-align: center;
+  color:black;
   max-width: 800px;
-  
+  text-decoration: underline;
 }
   .contact-container{
     width: 70%;
@@ -574,10 +571,6 @@ margin: auto;
     font-weight: 600;
     color: black;
   }
-
-  .contact-right-side p{
-    padding-top: 15px;
-  }
   .contact-right-side .contact-input-box{
     height: 50px;
     width: 100%;
@@ -621,10 +614,7 @@ margin: auto;
   }
 
 
-
-
-
-.faq-heading{
+ .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
 }
@@ -653,6 +643,7 @@ flex-direction: column;
 }
 .faq-body{
     margin: auto;
+
    width: 50%; 
    padding: auto;
    
@@ -660,11 +651,7 @@ flex-direction: column;
 
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-<<<<<<< HEAD
 .faq-active,
-=======
-.faq.active,
->>>>>>> d966589ecbaf3c328bc122d33d82b33d3bea09fe
 .faq-page:hover {
     background-color: #ffffff;
 } 
@@ -686,11 +673,7 @@ flex-direction: column;
     margin-left: 5px;
 }
 
-<<<<<<< HEAD
 .faq-active:after {
-=======
-.faq.active:after {
->>>>>>> d966589ecbaf3c328bc122d33d82b33d3bea09fe
     content: "\2796";
     
 } 
@@ -744,11 +727,7 @@ footer.about p {
   line-height: 2;
   margin: 0;
 }
-<<<<<<< HEAD
 footer.p {
-=======
-footer p,button1 {
->>>>>>> d966589ecbaf3c328bc122d33d82b33d3bea09fe
   font-size: 1em;
   padding: 1em;
   width: 50%;
@@ -759,7 +738,7 @@ footer p,button1 {
 }
 
 
-footer input,
+input,
 button2{
   font-size: 1em;
   padding: 1em;
@@ -791,7 +770,7 @@ footer.ul {
     padding: 0;
     display: flex;
 }
-footer ul li {
+ul li {
     position: relative;
     list-style: none;
     margin: 0 2px;
