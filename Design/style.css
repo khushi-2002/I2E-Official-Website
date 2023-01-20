@@ -962,12 +962,12 @@ nav .fas{
   }
 
   .services_para{
-      font-size:large;
+      font-size:larger;
       padding-top: 2rem;
   }
 
   .box-centre-s{
-    width: 70%;
+   /* width: 70%;*/
     margin: auto;
   }
 
@@ -975,6 +975,7 @@ nav .fas{
 {
   padding-left: 9rem;
   padding-right: 9rem;
+  font-size: 30px;
 }
 
   
