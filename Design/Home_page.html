@@ -36,9 +36,11 @@
     <!-- -------------Header section---------- -->
     <div id="header">
       <div class="container hero">
-        <video autoplay loop muted plays-inline class="back-video">
-          <source src="../Photos/bg-video.mp4" type="video/mp4" />
+      <div class="home video">
+        <video autoplay loop muted plays-inline class="back-video" width="100%" height="auto" >
+          <source src="../Photos/Video.mp4" type="video/mp4" />
         </video>
+        </div>
         <nav>
           <!-- LOGO -->
           <img
@@ -50,7 +52,7 @@
           <ul id="sidemenu">
             <li><a href="#header" class="active-link">Home</a></li>
             <li><a href="#services-new">Services</a></li>
-            <li><a href="#partners">Partners</a></li>
+            <li><a href="#partner">Partners</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="../Coding/login.html" target="_blank">Login</a></li>
@@ -69,7 +71,7 @@
             <div class="button input-box">
               <input
                 type="submit"
-                value="Book Your Free Consulatation "
+                value="Book Your Free Consultation "
                 id="submit"
               />
             </div>
@@ -106,20 +108,20 @@
         <div class="row">
           <div class="services-col-1">
             <h1 class="about-header">What we offer?</h1>
-            <p>
+            <!-- <p>
               Whether you are just starting out or looking to grow your
               established business, <br />we offer comprehensive expert services
               that can help you grow your business.
-            </p>
+            </p> -->
 
-            <div class="tab-titles">
+            <!-- <div class="tab-titles">
               <p class="tab-link active-link" onclick="opentab('packages')">
                 Packages
               </p>
               <p class="tab-link" onclick="opentab('payments')">Payments</p>
               <p class="tab-link" onclick="opentab('advices')">Advices</p>
               <p class="tab-link" onclick="opentab('sessions')">Sessions</p>
-            </div>
+            </div> -->
 
             <div class="tab-contents active-tag" id="packages">
               <ul>
@@ -275,7 +277,7 @@
     </div>
 
     <!-- ----------------------Partners----------------- -->
-    <div id="partners">
+    <!-- <div id="partners">
       <div class="wrapper">
         <div class="container">
           <h1 class="partners">Our Partners</h1>
@@ -310,6 +312,21 @@
             <div class="partner">
               <img src="../Photos/Partners/TechCrunch.png" alt="" />
             </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="partner">
+      <h2>Our Partners</h2>
+      <div class="container">
+        <div class="partner_container">
+          <div class="partner-card">
+            <img src="../Photos/Partners/Partner-1/codework_logos_page-0002.jpg" alt="Partner 1" />
+          </div>
+
+          <div class="partner-card">
+            <img src="../Photos/Partners/Partner-2/brandmap_logos_page-0001.jpg" alt="Partner 2" />
           </div>
         </div>
       </div>
@@ -348,57 +365,130 @@
     </div>
   </div>
   
+<<<<<<< HEAD
+=======
+   
+  
+
+<!-- --------------------------FAQ page ------------------------- -->
+
+
+  <center> <h1 class="faq-heading">FAQ</h1>
+<p>Here are some Questions related to I2E</p></center>
+   <section class="faq-container">
+       <div class="faq-one">
+
+           <!-- faq question -->
+           <h1 class="faq-page">What is I2E ?</h1>
+
+           <!-- faq answer -->
+           <div class="faq-body">
+               <p>FAQ1</p>
+           </div>
+       </div>
+       <hr class="hr-line">
+<br>
+       
+       <div class="faq-two">
+           <!-- faq question -->
+           <h1 class="faq-page">Technologies we deal  </h1>
+           <!-- faq answer -->
+           <div class="faq-body">
+               <p>FAQ2</p>
+           </div>
+       </div>
+       <hr class="hr-line">
+<br>
+
+
+       <div class="faq-three">
+
+           <!-- faq question -->
+<h1 class="faq-page">Services we work on </h1>
+
+           <!-- faq answer -->
+           <div class="faq-body">
+               <p>FAQ3</p>
+           </div>
+       </div>
+<hr class="hr-line">
+
+<br>
+
+       <div class="faq-four">
+
+           <!-- faq question -->
+<h1 class="faq-page">How to reach us ?</h1>
+
+           <!-- faq answer -->
+           <div class="faq-body">
+               <p>FAQ4</p>
+           </div>
+       </div>
+   </section>
+
+
+>>>>>>> ad31c28ed5b5001fcf9c11a9be47947537d6f532
 
     <!-- ----------------------Contact page--------------------- -->
-    <div class="contact-main-body">
-      <div class="contact-container">
-        <div class="contact-content">
-          <div class="contact-left-side">
-            <div class="contact-address contact-details">
-              <i class="fas fa-map-marker-alt"></i>
-              <div class="contact-topic">Address</div>
-              <div class="contact-text-one">123 Notting Lane</div>
-              <div class="contact-text-two">Nottingham, England</div>
+    <div id="contact">
+      <div class="contact-main-body">
+        <div class="contact-heading">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="contact-container">
+          <div class="contact-content">
+            <div class="contact-left-side">
+              <div class="contact-address contact-details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="contact-topic">Address</div>
+                <div class="contact-text-one">123 Notting Lane</div>
+                <div class="contact-text-two">Nottingham, England</div>
+              </div>
+              <div class="contact-phone contact-details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="contact-topic">Phone</div>
+                <div class="contact-text-one">+9142 3456 7890</div>
+                <div class="contact-text-two">+9134 6543 1234</div>
+              </div>
+              <div class="contact-email contact-details">
+                <i class="fas fa-envelope"></i>
+                <div class="contact-topic">Email</div>
+                <div class="contact-text-one">i2e@gmail.com</div>
+                <div class="contact-text-two">info.i2e@gmail.com</div>
+              </div>
             </div>
-            <div class="contact-phone contact-details">
-              <i class="fas fa-phone-alt"></i>
-              <div class="contact-topic">Phone</div>
-              <div class="contact-text-one">+9142 3456 7890</div>
-              <div class="contact-text-two">+9134 6543 1234</div>
+            <div class="contact-right-side">
+              <div class="contact-topic-text">Send us a message</div>
+              <p>
+                We would love to respond to your queries and help you succeed.
+                <br />
+                Feel free to get in touch with us.
+              </p>
+              <form action="#">
+                <div class="contact-input-box">
+                  <input type="text" placeholder="Enter your name" />
+                </div>
+                <div class="contact-input-box">
+                  <input type="text" placeholder="Enter your email" />
+                </div>
+                <div class="contact-input-box contact-message-box">
+                  <textarea placeholder="Enter your message"></textarea>
+                </div>
+                <div class="contact-button">
+                  <input type="button" value="Send Now" />
+                </div>
+              </form>
             </div>
-            <div class="contact-email contact-details">
-              <i class="fas fa-envelope"></i>
-              <div class="contact-topic">Email</div>
-              <div class="contact-text-one">i2e@gmail.com</div>
-              <div class="contact-text-two">info.i2e@gmail.com</div>
-            </div>
-          </div>
-          <div class="contact-right-side">
-            <div class="contact-topic-text">Send us a message</div>
-            <p>
-              We would love to respond to your queries and help you succeed.
-              <br />
-              Feel free to get in touch with us.
-            </p>
-            <form action="#">
-              <div class="contact-input-box">
-                <input type="text" placeholder="Enter your name" />
-              </div>
-              <div class="contact-input-box">
-                <input type="text" placeholder="Enter your email" />
-              </div>
-              <div class="contact-input-box contact-message-box">
-                <textarea placeholder="Enter your message"></textarea>
-              </div>
-              <div class="contact-button">
-                <input type="button" value="Send Now" />
-              </div>
-            </form>
           </div>
         </div>
       </div>
     </div>
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> ad31c28ed5b5001fcf9c11a9be47947537d6f532
 
 <!-- --------------------------FAQ page ------------------------- -->
 <main>

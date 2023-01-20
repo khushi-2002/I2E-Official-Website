@@ -14,6 +14,7 @@ function opentab(tabname){
 
 }
 
+
 $(".blog-cards").owlCarousel({
    margin: 10,
    loop: true,
@@ -48,6 +49,10 @@ function openmenu(){
 function closemenu(){
     sidemenu.style.right= "-200px";
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad31c28ed5b5001fcf9c11a9be47947537d6f532
 var faq = document.getElementsByClassName("faq-page");
 var i;
 
@@ -66,3 +71,7 @@ for (i = 0; i < faq.length; i++) {
         }
     });
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad31c28ed5b5001fcf9c11a9be47947537d6f532
