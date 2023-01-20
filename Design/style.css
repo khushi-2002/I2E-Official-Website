@@ -658,7 +658,7 @@ faq.active,
 
 
  .faq-body {
-    padding: 0 18px;
+    padding: 0 16px;
     background-color: white;
     display: none;
     overflow: hidden;
@@ -736,12 +736,12 @@ footer.p,button1 {
   -moz-box-align:center;
   cursor:pointer;
 }
-footer.button1 {
+button1 {
   background-color: #ffffff;
   color: #000000;
 }
 
-footer.input,
+input,
 button2{
   font-size: 1em;
   padding: 1em;
@@ -773,7 +773,7 @@ footer.ul {
     padding: 0;
     display: flex;
 }
-footer.ul li {
+ul li {
     position: relative;
     list-style: none;
     margin: 0 2px;
