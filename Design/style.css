@@ -508,10 +508,10 @@ margin: auto;
 }
 .contact-heading{
   color: white;
-  font-size: 2rem;
+  font-size: 1.3rem;
   text-align: center;
   max-width: 800px;
-  text-decoration: underline;
+  
 }
   .contact-container{
     width: 70%;
