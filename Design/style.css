@@ -245,6 +245,10 @@ display: none;
     height: 100vh;
 
 }
+
+#services p{
+  line-height: 2.0;
+}
 .service-img{
     background-color: rgb(255, 255, 255);
     background-size: cover;
@@ -375,43 +379,7 @@ transform: scale(1.1);
 }
 
 /* ----------------Partners----------- */
-/* #partners{
-  padding: 30px;
-}
 
-#partners .container h1{
-    color: black;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-    }
-
-    .partner-list{
-        display: flex;
-        justify-content: space-between;
-        max-width: 1200px;
-        width: 100%;
-        flex-wrap: wrap;
-        margin: 12px auto;
-    }
-
-    .partner{
-        text-align: center;
-        object-fit: cover;
-        padding: 10px;
-        margin-bottom: 30px;
-        border-radius: 10px;
- 
-    }
-
-    .partner img{
-        display: block;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-       
-    } */
 
     #partner {
       background-color: #ccc;
@@ -423,6 +391,7 @@ transform: scale(1.1);
       text-align: center;
       padding: 3rem 0;
     }
+
   
     .partner_container {
       display: flex;
@@ -452,7 +421,6 @@ transform: scale(1.1);
     /* -------------Blog--------------- */
 
     #blog .blog-img{
-    /* background: url(C:\Users\yashn\OneDrive\Desktop\i2e\I2E-Official-Website\Photos\pexels-fauxels-3184450.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -653,7 +621,7 @@ margin: auto;
   }
 
 
-/* .faq-heading{
+ .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
 }
@@ -666,13 +634,13 @@ flex-direction: column;
 .hr-line{
   width: 60%;
   margin: auto;
-  
-} */
-/* .faq-page {
+
+} 
+.faq-page {
     background-color: #101010; 
     color: #7B7474;
     cursor: pointer;
-    padding: 30px 20px;
+    padding: 20px 20px;
     width: 60%;
     border: none;
     outline: none;
@@ -690,14 +658,14 @@ flex-direction: column;
 
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-/* .active,
+faq.active,
 .faq-page:hover {
     background-color: #ffffff;
-} */
+} 
 
 
-/* .faq-body {
-    padding: 0 18px;
+ .faq-body {
+    padding: 0 16px;
     background-color: white;
     display: none;
     overflow: hidden;
@@ -712,12 +680,10 @@ flex-direction: column;
     margin-left: 5px;
 }
 
-.active:after {
+faq.active:after {
     content: "\2796";
     
-} */
-
-/* 
+} 
  --------------Footer-----------
 #footer.body {
   padding: 0;
@@ -738,7 +704,7 @@ footer * {
   outline: none;
   
 }
-.row {
+.footer-row {
   padding: 1em 1em;
 }
 .row.primary {
@@ -746,29 +712,29 @@ footer * {
   grid-template-columns: 2fr 1fr 1fr 2fr;
   align-items: stretch;
 }
-.column {
+.footer-column {
   width: 100%;
   display: flex;
   flex-direction: column;
   padding: 0 2em;
   min-height: 10em;
 }
- p1 {
+ .footer-p1 {
   text-align:  justify;
   line-height: 1;
   margin: 0;
   white-space: nowrap;
 }
-.logo{
+.footer-logo{
     width: 300px;
     -ms-ime-align:center;
 }
-.about p {
+footer.about p {
   text-align: justify;
   line-height: 2;
   margin: 0;
 }
-p,button1 {
+footer.p,button1 {
   font-size: 1em;
   padding: 1em;
   width: 50%;
@@ -783,7 +749,7 @@ button1 {
 }
 
 input,
-button{
+button2{
   font-size: 1em;
   padding: 1em;
   width: 100%;
@@ -794,13 +760,13 @@ button{
 }
 
 
-button{
+button2{
   background-color: #ff0000;
   color: #ffffff;
 }
 
 
-body {
+footer.body {
     margin: 0;
     padding: 0;
     background: #f1f1f1;
@@ -821,7 +787,7 @@ ul li {
 }
 
 
-.copyright {
+footer.copyright {
   padding: 0.3em 1em;
   background-color: 000000;
 }
