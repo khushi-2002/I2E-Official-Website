@@ -426,8 +426,10 @@ transform: scale(1.1);
       border-radius: 0.5rem;
       overflow: hidden;
       transition: 0.2s ease-in-out;
-      
+      border: 4px solid black;
     }
+
+   
   
     .partner-card:hover {
       transform: scale(1.05);
@@ -438,6 +440,7 @@ transform: scale(1.1);
       transition: 0.3s ease-in-out;
       opacity: 0.8;
     }
+
 
 
     /* -------------Blog--------------- */
