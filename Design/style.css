@@ -527,9 +527,9 @@ margin: auto;
   justify-content: center;
   gap: 20px;
 }
-.contact-heading{
+.contact-main-body .contact-heading{
   color: white;
-  font-size: 2rem;
+  font-size: 25px;
   max-width: 800px;
 }
 
