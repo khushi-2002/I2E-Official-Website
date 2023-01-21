@@ -301,7 +301,7 @@ margin-top: 10px;
 
 #services-new{
 padding: 20px ;
-background-color: grey;
+background-color: black;
 }
 
 
@@ -403,7 +403,7 @@ transform: scale(1.1);
 
 
     #partner {
-      background-color: #ccc;
+      background-color: white;
       min-height: 80vh;
     }
     
@@ -426,6 +426,8 @@ transform: scale(1.1);
       border-radius: 0.5rem;
       overflow: hidden;
       transition: 0.2s ease-in-out;
+      
+      box-shadow: 2px solid rgb(130, 127, 127);
     }
   
     .partner-card:hover {
@@ -460,7 +462,7 @@ transform: scale(1.1);
        
     }
 #blog{
-    background-color: #6f6672;
+    background-color: black;
     padding: 5px;
 }
 
