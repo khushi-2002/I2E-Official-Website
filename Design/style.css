@@ -873,6 +873,13 @@ nav .fas{
         line-height: 0.5;
     }
 
+    .services-col-2{
+     display: none;
+    }
+
+    #services .row{
+      display: block;
+    }
 
     
 }
