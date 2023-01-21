@@ -497,9 +497,8 @@ margin: auto;
 .contact-main-body{
   min-height: 100vh;
   width: 100%;
-  /* background: url(contact-bg.jpg) no-repeat center center fixed;
-  background-size: cover; */
-  background-color: rgb(59 59 59);
+  background: url(contact-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -507,11 +506,9 @@ margin: auto;
   gap: 20px;
 }
 .contact-heading{
-  color: white;
-  font-size: 1.3rem;
-  text-align: center;
+  color:black;
   max-width: 800px;
-  
+  text-decoration: underline;
 }
   .contact-container{
     width: 70%;
@@ -574,10 +571,6 @@ margin: auto;
     font-weight: 600;
     color: black;
   }
-
-  .contact-right-side p{
-    padding-top: 15px;
-  }
   .contact-right-side .contact-input-box{
     height: 50px;
     width: 100%;
@@ -621,10 +614,7 @@ margin: auto;
   }
 
 
-
-
-
-.faq-heading{
+ .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
 }
@@ -653,6 +643,7 @@ flex-direction: column;
 }
 .faq-body{
     margin: auto;
+
    width: 50%; 
    padding: auto;
    
@@ -660,7 +651,7 @@ flex-direction: column;
 
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.faq.active,
+.faq-active,
 .faq-page:hover {
     background-color: #ffffff;
 } 
@@ -682,13 +673,13 @@ flex-direction: column;
     margin-left: 5px;
 }
 
-.faq.active:after {
+.faq-active:after {
     content: "\2796";
     
 } 
  --------------Footer-----------
 #footer.body {
-  padding: 0;
+  padding: 10;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -736,7 +727,7 @@ footer.about p {
   line-height: 2;
   margin: 0;
 }
-footer p,button1 {
+footer.p {
   font-size: 1em;
   padding: 1em;
   width: 50%;
@@ -745,12 +736,9 @@ footer p,button1 {
   -moz-box-align:center;
   cursor:pointer;
 }
-button1 {
-  background-color: #ffffff;
-  color: #000000;
-}
 
-footer input,
+
+input,
 button2{
   font-size: 1em;
   padding: 1em;
@@ -782,7 +770,7 @@ footer.ul {
     padding: 0;
     display: flex;
 }
-footer ul li {
+ul li {
     position: relative;
     list-style: none;
     margin: 0 2px;
@@ -797,9 +785,34 @@ footer.copyright {
 .copyright p {
   font-size: 0.9em;
   text-align: center;
-}  */
+}  
 
+/*social*/
+.social {
+  padding: 0px;
+  margin: 5px;
+  border-radius: 6px;
 
+}
+
+.social a{
+  font-size: 30px;
+  color: #F4FFFE;
+  border-style: groove;
+  border-color: grey;
+  padding: 0px;
+  margin: 10px;
+  border-radius: 6px;
+  
+}
+.social a:hover {
+  background-color: darkred;
+  color: white;
+  -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  transition: background-color 0.6s ease-out, color 0.6s ease-out;
+}
 
 /* -------------------Css for small screens------------ */
 
@@ -949,12 +962,12 @@ nav .fas{
   }
 
   .services_para{
-      font-size:large;
+      font-size:larger;
       padding-top: 2rem;
   }
 
   .box-centre-s{
-    width: 70%;
+   /* width: 70%;*/
     margin: auto;
   }
 
@@ -962,6 +975,7 @@ nav .fas{
 {
   padding-left: 9rem;
   padding-right: 9rem;
+  font-size: 30px;
 }
 
   
