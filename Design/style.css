@@ -647,6 +647,7 @@ margin: auto;
  .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
+    
 }
 .faq-container{
 display: flex;
@@ -657,7 +658,7 @@ flex-direction: column;
 .hr-line{
   width: 60%;
   margin: auto;
-
+  
 } 
 .faq-page {
     background-color: #101010; 
@@ -667,7 +668,7 @@ flex-direction: column;
     width: 60%;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: 0.2s;
     margin: auto;
 
 }
@@ -718,7 +719,8 @@ flex-direction: column;
 footer {
   background-color: #121315;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
+
 }
 footer * {
   font-family: "Poppins", sans-serif;
