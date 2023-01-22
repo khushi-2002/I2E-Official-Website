@@ -673,7 +673,7 @@ flex-direction: column;
 
 }
 .faq-body{
-    margin: auto;
+   margin: 10px auto;
    width: 50%; 
    padding: auto;
    
@@ -788,11 +788,6 @@ button2{
 }
 
 
-footer.body {
-    margin: 0;
-    padding: 0;
-    background: #f1f1f1;
-}
 footer.ul {
     position: absolute;
     bottom: 0%;
@@ -920,6 +915,13 @@ nav .fas{
       width: 80%;
     }
     
+    .faq-page{
+      width: 90%;
+    }
+
+    .faq-body{
+      width: 90%;
+    }
 
     
 }
