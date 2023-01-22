@@ -624,11 +624,11 @@ margin: auto;
   .contact-right-side .contact-input-box textarea{
     padding-top: 6px;
   }
-  .contact-right-side .contact-button{
+  .contact-right-side .ccontact-button{
     display: inline-block;
     margin-top: 12px;
   }
-  .contact-right-side .contact-button input[type="button"]{
+  .contact-right-side .ccontact-button input[type="button"]{
     color: #fff;
     font-size: 18px;
     outline: none;
@@ -639,7 +639,7 @@ margin: auto;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .contact-button input[type="button"]:hover{
+  .ccontact-button input[type="button"]:hover{
     background: rgb(49, 49, 49);
   }
 
@@ -734,6 +734,7 @@ footer * {
 .row.primary {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
+  place-items: center;
   align-items: stretch;
 }
 .footer-column {
