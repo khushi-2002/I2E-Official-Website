@@ -649,6 +649,10 @@ margin: auto;
     padding: 20px 60px;
     
 }
+
+
+
+
 .faq-container{
 display: flex;
 justify-content: center;
@@ -670,6 +674,7 @@ flex-direction: column;
     outline: none;
     transition: 0.2s;
     margin: auto;
+    font-size: 18px;
 
 }
 .faq-body{
@@ -696,7 +701,6 @@ flex-direction: column;
 
 .faq-page:after {
     content: '\02795';
-
     font-size: 13px;
     color: #777;
     float: right;
@@ -922,7 +926,12 @@ nav .fas{
     .faq-body{
       width: 90%;
     }
-
+    .faq-heading h2{
+      margin-bottom: 10px;
+    }
+    .faq-page{
+      padding: 10px 10px;
+    }
     
 }
 
