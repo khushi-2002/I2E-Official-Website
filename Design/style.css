@@ -1118,7 +1118,29 @@ nav .fas{
 .recruitrow{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-evenly;
   font-family: 'DM Sans', sans-serif;
   padding: 32px;
+}
+.recruithead{
+  background-color: rgb(55, 59, 73);
+  color: white;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  padding: 16px ;
+
+}
+.recruitcolumn{
+  padding:16px;
+  width:350px ;
+  height: auto;
+  text-align: center;
+  border: #434257 solid 1px;
+  box-shadow: #434257 5px 10px 15px;
+  font-family: 'DM Sans', sans-serif;
+}
+.recruitpara{
+  font-family: 'DM Sans', sans-serif;
+  padding-top: 16px;
+  font-size: larger;
 }
