@@ -1,5 +1,6 @@
 html{
     scroll-behavior:smooth;
+    width: fit-content;
 }
 * {
     margin: 0;
@@ -630,6 +631,22 @@ margin: auto;
     display: inline-block;
     margin-top: 12px;
   }
+
+  .btn-contact {
+    background: white;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+   
+  }
+ .btn-contact a{
+  text-decoration: none;
+  color: black;
+ }
+
+
   .contact-right-side .contact-button input[type="button"]{
     color: #fff;
     font-size: 18px;
