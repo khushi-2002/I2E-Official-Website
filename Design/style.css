@@ -649,11 +649,11 @@ margin: auto;
   .contact-right-side .contact-input-box textarea{
     padding-top: 6px;
   }
-  .contact-right-side .ccontact-button{
+  .contact-right-side .contact-button{
     display: inline-block;
     margin-top: 12px;
   }
-  .contact-right-side .ccontact-button input[type="button"]{
+  .contact-right-side .contact-button input[type="button"]{
     color: #fff;
     font-size: 18px;
     outline: none;
@@ -799,7 +799,7 @@ footer.p {
 }
 
 
-input,
+footer input,
 button2{
   font-size: 1em;
   padding: 1em;
@@ -1064,3 +1064,39 @@ nav .fas{
 }
 
   
+/* -------- css for technical page ----------- */
+.tech-heading{
+  margin-top: 10%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.tech-paragraph{
+  text-align: center;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 25px;
+}
+.techrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px;
+}
+.techhead{
+  background-color: rgb(55, 59, 73);
+  color: white;
+  text-align: center;
+  padding: 16px ;
+
+}
+.techcolumn{
+  padding:16px;
+  width:350px ;
+  height: auto;
+  text-align: center;
+  border: #434257 solid 1px;
+  box-shadow: #434257 5px 10px 15px;
+  
+}
