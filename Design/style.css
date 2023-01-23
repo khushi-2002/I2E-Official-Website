@@ -296,6 +296,27 @@ margin-top: 10px;
   font-weight: 700;
 }
 
+.btn-contact{
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 10px;
+  text-align: center;
+  transition: 0.5s ease;
+}
+.btn-contact a{
+  text-decoration: none;
+  color: black;
+  
+}
+.btn-contact:hover{
+  background-color: rgb(201, 194, 194);
+}
+
+.offer-btn{
+  border: 2px solid black;
+}
 
 /* Services page */
 
@@ -643,6 +664,7 @@ margin: auto;
     background: rgb(49, 49, 49);
   }
 
+  
 
  .faq-heading{
     border-bottom: #777;
