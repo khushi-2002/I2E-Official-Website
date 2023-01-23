@@ -514,6 +514,8 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
+
+
   
 
 
@@ -624,11 +626,11 @@ margin: auto;
   .contact-right-side .contact-input-box textarea{
     padding-top: 6px;
   }
-  .contact-right-side .ccontact-button{
+  .contact-right-side .contact-button{
     display: inline-block;
     margin-top: 12px;
   }
-  .contact-right-side .ccontact-button input[type="button"]{
+  .contact-right-side .contact-button input[type="button"]{
     color: #fff;
     font-size: 18px;
     outline: none;
@@ -639,7 +641,7 @@ margin: auto;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .ccontact-button input[type="button"]:hover{
+  .contact-button input[type="button"]:hover{
     background: rgb(49, 49, 49);
   }
 
@@ -774,7 +776,7 @@ footer.p {
 }
 
 
-input,
+footer input,
 button2{
   font-size: 1em;
   padding: 1em;
