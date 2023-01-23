@@ -515,6 +515,29 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
+@media(min-width:601px){.back-img {
+
+  display: none;
+  
+}
+
+}
+@media (max-width: 600px) {
+  .blogvid {
+    display: none;
+  }
+  
+  .blogimg {
+    display: block;
+  }
+  .back-img {
+    width: 100%;
+    height: 100%;
+    
+    
+  }
+}
+
 
 
   
@@ -1012,27 +1035,34 @@ nav .fas{
 /* -------- css for services page ----------- */
 
 .service-heading{
-    margin-top: 10%;
-    margin-bottom: 10px;
+  margin-top: 5%;
+  margin-bottom: 10px;
 }
 
 .column_services {
-    float: left;
-    width: 50%;
-    padding: 5px;
-    flex: 50%;
-    padding: 5px;
-    width: 300px;
-   /* border: 3px rgb(246, 245, 245) solid;*/
-    margin: 20px;
-    width: 400px;
-      height: 500px;
-      border:1px solid #fff;
-      box-shadow: 8px 8px 3px rgb(242, 238, 238);
-      -moz-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-      -webkit-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-      -khtml-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-  }
+  float: left;
+ /* width: 50%;*/
+  padding: 5px;
+  flex: 50%;
+  padding: 5px;
+  /*width: 300px;
+  border: 3px rgb(246, 245, 245) solid;*/
+  margin: 20px;
+  /*width: 400px;
+    height: 500px;*/
+    border:1px solid #fff;
+    box-shadow: 8px 8px 3px rgb(242, 238, 238);
+    -moz-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+    -webkit-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+    -khtml-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+}
+
+.sHeading{
+  background-color: #4b5563;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 
   .row-services {
     display: flex;
@@ -1058,3 +1088,128 @@ nav .fas{
 }
 
   
+/* -------- css for technical page ----------- */
+.tech-heading{
+  margin-top: 10%;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
+.tech-paragraph{
+  text-align: center;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 25px;
+}
+.techrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'DM Sans', sans-serif;
+  padding: 32px;
+}
+.techhead{
+  background-color: rgb(55, 59, 73);
+  color: white;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  padding: 16px ;
+
+}
+.techcolumn{
+  padding:16px;
+  width:350px ;
+  height: auto;
+  text-align: center;
+  border: #434257 solid 1px;
+  box-shadow: #434257 5px 10px 15px;
+  font-family: 'DM Sans', sans-serif;
+}
+.techpara{
+  font-family: 'DM Sans', sans-serif;
+  padding-top: 16px;
+}
+
+/* -------- css for recruitment services page ----------- */
+.tech-heading{
+  margin-top: 10%;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
+.recruitrow{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  font-family: 'DM Sans', sans-serif;
+  padding: 32px;
+}
+.recruithead{
+  background-color: rgb(55, 59, 73);
+  color: white;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  padding: 16px ;
+
+}
+.recruitcolumn{
+  padding:16px;
+  width:350px ;
+  height: auto;
+  text-align: center;
+  border: #434257 solid 1px;
+  box-shadow: #434257 5px 10px 15px;
+  font-family: 'DM Sans', sans-serif;
+}
+.recruitpara{
+  font-family: 'DM Sans', sans-serif;
+  padding-top: 16px;
+  font-size: larger;
+}
+
+/* -------- css for marketing services page ----------- */
+.markheading{
+  margin-top: 10%;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
+.markrow{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-family: 'DM Sans', sans-serif;
+  padding: 32px;
+}
+.markhead{
+  background-color: rgb(55, 59, 73);
+  color: white;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  padding: 16px ;
+
+}
+.markcolumn{
+  padding:8px;
+  width:250px ;
+  height: auto;
+  text-align: center;
+  border: #434257 solid 1px;
+  box-shadow: #434257 5px 10px 15px;
+  font-family: 'DM Sans', sans-serif;
+}
+.markpara{
+  font-family: 'DM Sans', sans-serif;
+  padding-top: 16px;
+
+}
+.mark-paragraph{
+  text-align: center;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 25px;
+}
