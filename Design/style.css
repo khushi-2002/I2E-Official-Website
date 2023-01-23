@@ -514,6 +514,8 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
+
+
   
 
 
@@ -639,7 +641,7 @@ margin: auto;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .ccontact-button input[type="button"]:hover{
+  .contact-button input[type="button"]:hover{
     background: rgb(49, 49, 49);
   }
 
