@@ -758,11 +758,6 @@ footer * {
     width: 300px;
     -ms-ime-align:center;
 }
-footer.about p {
-  text-align: justify;
-  line-height: 2;
-  margin: 0;
-}
 footer.p {
   font-size: 1em;
   padding: 1em;
@@ -771,6 +766,7 @@ footer.p {
   margin-bottom: 5px;
   -moz-box-align:center;
   cursor:pointer;
+  line-height:1cm;
 }
 
 
@@ -779,7 +775,6 @@ button2{
   font-size: 1em;
   padding: 1em;
   width: 100%;
-  cursor:pointer;
   border-radius: 5px;
   margin-bottom: 5px;
   transition: all 0.4s ease; 
