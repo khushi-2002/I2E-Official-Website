@@ -724,11 +724,11 @@ flex-direction: column;
 footer {
   background-color: #121315;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
 
 }
 footer * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   box-sizing: border-box;
   border: none;
   outline: none;
@@ -1024,6 +1024,7 @@ nav .fas{
   .services_para{
       font-size:larger;
       padding-top: 2rem;
+      font-family: 'DM Sans', sans-serif;
   }
 
   .box-centre-s{
@@ -1036,6 +1037,7 @@ nav .fas{
   padding-left: 9rem;
   padding-right: 9rem;
   font-size: 30px;
+  font-family: 'DM Sans', sans-serif;
 }
 
   
