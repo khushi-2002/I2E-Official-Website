@@ -626,11 +626,11 @@ margin: auto;
   .contact-right-side .contact-input-box textarea{
     padding-top: 6px;
   }
-  .contact-right-side .ccontact-button{
+  .contact-right-side .contact-button{
     display: inline-block;
     margin-top: 12px;
   }
-  .contact-right-side .ccontact-button input[type="button"]{
+  .contact-right-side .contact-button input[type="button"]{
     color: #fff;
     font-size: 18px;
     outline: none;
