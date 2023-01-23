@@ -1,8 +1,7 @@
 html{
     scroll-behavior:smooth;
-    
 }
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -515,6 +514,7 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
+  
 
 
 
@@ -624,40 +624,11 @@ margin: auto;
   .contact-right-side .contact-input-box textarea{
     padding-top: 6px;
   }
-  .contact-right-side .contact-button{
+  .contact-right-side .ccontact-button{
     display: inline-block;
     margin-top: 12px;
   }
-
-  .btn-contact {
-    background: white;
-    padding: 10px;
-    border-radius: 7px;
-    margin: 10px;
-    width: 150px;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.5s ease;
-  }
-
-  .offer-btn{
-   border: 2px solid black;
-  }
- 
- .btn-contact a{
-  text-decoration: none;
-  color: black;
- }
-
- .btn-contact:hover{
-  background-color: rgb(206, 185, 185);
- 
-  
- }
- 
-
-
-  .contact-right-side .contact-button input[type="button"]{
+  .contact-right-side .ccontact-button input[type="button"]{
     color: #fff;
     font-size: 18px;
     outline: none;
@@ -668,7 +639,7 @@ margin: auto;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .contact-button input[type="button"]:hover{
+  .ccontact-button input[type="button"]:hover{
     background: rgb(49, 49, 49);
   }
 
@@ -709,7 +680,8 @@ flex-direction: column;
 .faq-body{
    margin: 10px auto;
    width: 50%; 
-   padding: auto; 
+   padding: auto;
+   
 }
 
 
@@ -751,7 +723,6 @@ footer {
   background-color: #121315;
   color: #ffffff;
   font-size: 16px;
-
 }
 footer * {
   font-family: 'DM Sans', sans-serif;
@@ -761,11 +732,11 @@ footer * {
   
 }
 .footer-row {
-  padding: 1em 1em;
+  padding: 2em 2em;
 }
 .row.primary {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-columns: 4fr 2fr 2fr 4fr;
   place-items: center;
   align-items: stretch;
 }
@@ -778,7 +749,7 @@ footer * {
 }
  .footer-p1 {
   text-align:  justify;
-  line-height: 1;
+  line-height: 6px;
   margin: 0;
   white-space: nowrap;
 }
@@ -788,7 +759,7 @@ footer * {
 }
 footer.about p {
   text-align: justify;
-  line-height: 2;
+  line-height: 7px;
   margin: 0;
 }
 footer.p {
@@ -799,15 +770,15 @@ footer.p {
   margin-bottom: 5px;
   -moz-box-align:center;
   cursor:pointer;
+  min-height: 100vh;
 }
 
 
-footer input,
+input,
 button2{
   font-size: 1em;
   padding: 1em;
   width: 100%;
-  cursor:pointer;
   border-radius: 5px;
   margin-bottom: 5px;
   transition: all 0.4s ease; 
@@ -1025,34 +996,27 @@ nav .fas{
 /* -------- css for services page ----------- */
 
 .service-heading{
-  margin-top: 5%;
-  margin-bottom: 10px;
+    margin-top: 10%;
+    margin-bottom: 10px;
 }
 
 .column_services {
-  float: left;
- /* width: 50%;*/
-  padding: 5px;
-  flex: 50%;
-  padding: 5px;
-  /*width: 300px;
-  border: 3px rgb(246, 245, 245) solid;*/
-  margin: 20px;
-  /*width: 400px;
-    height: 500px;*/
-    border:1px solid #fff;
-    box-shadow: 8px 8px 3px rgb(242, 238, 238);
-    -moz-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-    -webkit-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-    -khtml-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-}
-
-.sHeading{
-  background-color: #4b5563;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
+    float: left;
+    width: 50%;
+    padding: 5px;
+    flex: 50%;
+    padding: 5px;
+    width: 300px;
+   /* border: 3px rgb(246, 245, 245) solid;*/
+    margin: 20px;
+    width: 400px;
+      height: 500px;
+      border:1px solid #fff;
+      box-shadow: 8px 8px 3px rgb(242, 238, 238);
+      -moz-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+      -webkit-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+      -khtml-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+  }
 
   .row-services {
     display: flex;
@@ -1078,128 +1042,3 @@ nav .fas{
 }
 
   
-/* -------- css for technical page ----------- */
-.tech-heading{
-  margin-top: 10%;
-  margin-bottom: 5px;
-  text-align: center;
-  font-family: 'DM Sans', sans-serif;
-}
-.tech-paragraph{
-  text-align: center;
-  padding-left: 9rem;
-  padding-right: 9rem;
-  font-size: 16px;
-  font-family: 'DM Sans', sans-serif;
-  line-height: 25px;
-}
-.techrow{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: 'DM Sans', sans-serif;
-  padding: 32px;
-}
-.techhead{
-  background-color: rgb(55, 59, 73);
-  color: white;
-  text-align: center;
-  font-family: 'DM Sans', sans-serif;
-  padding: 16px ;
-
-}
-.techcolumn{
-  padding:16px;
-  width:350px ;
-  height: auto;
-  text-align: center;
-  border: #434257 solid 1px;
-  box-shadow: #434257 5px 10px 15px;
-  font-family: 'DM Sans', sans-serif;
-}
-.techpara{
-  font-family: 'DM Sans', sans-serif;
-  padding-top: 16px;
-}
-
-/* -------- css for recruitment services page ----------- */
-.tech-heading{
-  margin-top: 10%;
-  margin-bottom: 5px;
-  text-align: center;
-  font-family: 'DM Sans', sans-serif;
-}
-.recruitrow{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-evenly;
-  font-family: 'DM Sans', sans-serif;
-  padding: 32px;
-}
-.recruithead{
-  background-color: rgb(55, 59, 73);
-  color: white;
-  text-align: center;
-  font-family: 'DM Sans', sans-serif;
-  padding: 16px ;
-
-}
-.recruitcolumn{
-  padding:16px;
-  width:350px ;
-  height: auto;
-  text-align: center;
-  border: #434257 solid 1px;
-  box-shadow: #434257 5px 10px 15px;
-  font-family: 'DM Sans', sans-serif;
-}
-.recruitpara{
-  font-family: 'DM Sans', sans-serif;
-  padding-top: 16px;
-  font-size: larger;
-}
-
-/* -------- css for marketing services page ----------- */
-.markheading{
-  margin-top: 10%;
-  margin-bottom: 5px;
-  text-align: center;
-  font-family: 'DM Sans', sans-serif;
-}
-.markrow{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  font-family: 'DM Sans', sans-serif;
-  padding: 32px;
-}
-.markhead{
-  background-color: rgb(55, 59, 73);
-  color: white;
-  text-align: center;
-  font-family: 'DM Sans', sans-serif;
-  padding: 16px ;
-
-}
-.markcolumn{
-  padding:8px;
-  width:250px ;
-  height: auto;
-  text-align: center;
-  border: #434257 solid 1px;
-  box-shadow: #434257 5px 10px 15px;
-  font-family: 'DM Sans', sans-serif;
-}
-.markpara{
-  font-family: 'DM Sans', sans-serif;
-  padding-top: 16px;
-
-}
-.mark-paragraph{
-  text-align: center;
-  padding-left: 9rem;
-  padding-right: 9rem;
-  font-size: 16px;
-  font-family: 'DM Sans', sans-serif;
-  line-height: 25px;
-}
