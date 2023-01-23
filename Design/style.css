@@ -1018,27 +1018,34 @@ nav .fas{
 /* -------- css for services page ----------- */
 
 .service-heading{
-    margin-top: 10%;
-    margin-bottom: 10px;
+  margin-top: 5%;
+  margin-bottom: 10px;
 }
 
 .column_services {
-    float: left;
-    width: 50%;
-    padding: 5px;
-    flex: 50%;
-    padding: 5px;
-    width: 300px;
-   /* border: 3px rgb(246, 245, 245) solid;*/
-    margin: 20px;
-    width: 400px;
-      height: 500px;
-      border:1px solid #fff;
-      box-shadow: 8px 8px 3px rgb(242, 238, 238);
-      -moz-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-      -webkit-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-      -khtml-box-shadow: 8px 8px 3px rgb(242, 238, 238);
-  }
+  float: left;
+ /* width: 50%;*/
+  padding: 5px;
+  flex: 50%;
+  padding: 5px;
+  /*width: 300px;
+  border: 3px rgb(246, 245, 245) solid;*/
+  margin: 20px;
+  /*width: 400px;
+    height: 500px;*/
+    border:1px solid #fff;
+    box-shadow: 8px 8px 3px rgb(242, 238, 238);
+    -moz-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+    -webkit-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+    -khtml-box-shadow: 8px 8px 3px rgb(242, 238, 238);
+}
+
+.sHeading{
+  background-color: #4b5563;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 
   .row-services {
     display: flex;
