@@ -636,12 +636,25 @@ margin: auto;
     margin: 10px;
     width: 150px;
     text-align: center;
-   
+    cursor: pointer;
+    transition: 0.5s ease;
   }
+
+  .offer-btn{
+   border: 2px solid black;
+  }
+ 
  .btn-contact a{
   text-decoration: none;
   color: black;
  }
+
+ .btn-contact:hover{
+  background-color: rgb(206, 185, 185);
+ 
+  
+ }
+ 
 
 
   .contact-right-side .contact-button input[type="button"]{
@@ -696,8 +709,7 @@ flex-direction: column;
 .faq-body{
    margin: 10px auto;
    width: 50%; 
-   padding: auto;
-   
+   padding: auto; 
 }
 
 
