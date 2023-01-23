@@ -514,8 +514,6 @@ margin: auto;
 .owl-dot:hover{
     background: #eef2f4!important;
 }
-
-
   
 
 
@@ -641,7 +639,7 @@ margin: auto;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .contact-button input[type="button"]:hover{
+  .ccontact-button input[type="button"]:hover{
     background: rgb(49, 49, 49);
   }
 
@@ -725,7 +723,6 @@ footer {
   background-color: #121315;
   color: #ffffff;
   font-size: 16px;
-
 }
 footer * {
   font-family: 'DM Sans', sans-serif;
@@ -735,11 +732,11 @@ footer * {
   
 }
 .footer-row {
-  padding: 1em 1em;
+  padding: 2em 2em;
 }
 .row.primary {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-columns: 4fr 2fr 2fr 4fr;
   place-items: center;
   align-items: stretch;
 }
@@ -752,13 +749,18 @@ footer * {
 }
  .footer-p1 {
   text-align:  justify;
-  line-height: 1;
+  line-height: 6px;
   margin: 0;
   white-space: nowrap;
 }
 .footer-logo{
     width: 300px;
     -ms-ime-align:center;
+}
+footer.about p {
+  text-align: justify;
+  line-height: 7px;
+  margin: 0;
 }
 footer.p {
   font-size: 1em;
@@ -768,7 +770,7 @@ footer.p {
   margin-bottom: 5px;
   -moz-box-align:center;
   cursor:pointer;
-  line-height:1cm;
+  min-height: 100vh;
 }
 
 
