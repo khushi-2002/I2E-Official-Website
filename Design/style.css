@@ -1039,3 +1039,39 @@ nav .fas{
 }
 
   
+/* -------- css for technical page ----------- */
+.tech-heading{
+  margin-top: 10%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.tech-paragraph{
+  text-align: center;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 25px;
+}
+.techrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px;
+}
+.techhead{
+  background-color: rgb(55, 59, 73);
+  color: white;
+  text-align: center;
+  padding: 16px ;
+
+}
+.techcolumn{
+  padding:16px;
+  width:350px ;
+  height: auto;
+  text-align: center;
+  border: #434257 solid 1px;
+  box-shadow: #434257 5px 10px 15px;
+  
+}
