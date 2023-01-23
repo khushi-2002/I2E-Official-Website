@@ -1144,3 +1144,48 @@ nav .fas{
   padding-top: 16px;
   font-size: larger;
 }
+
+/* -------- css for marketing services page ----------- */
+.markheading{
+  margin-top: 10%;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
+.markrow{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-family: 'DM Sans', sans-serif;
+  padding: 32px;
+}
+.markhead{
+  background-color: rgb(55, 59, 73);
+  color: white;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  padding: 16px ;
+
+}
+.markcolumn{
+  padding:8px;
+  width:250px ;
+  height: auto;
+  text-align: center;
+  border: #434257 solid 1px;
+  box-shadow: #434257 5px 10px 15px;
+  font-family: 'DM Sans', sans-serif;
+}
+.markpara{
+  font-family: 'DM Sans', sans-serif;
+  padding-top: 16px;
+
+}
+.mark-paragraph{
+  text-align: center;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 25px;
+}
